@@ -12,11 +12,24 @@
         android:id="@+id/showAds"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Show Ads"
+        android:text="Show Interstitial Ads"
         app:layout_constraintBottom_toTopOf="@+id/adView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    <Button
+        android:id="@+id/showRewardAds"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:text="Show Reward Ads"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/showAds" />
+
 
     <com.google.android.gms.ads.AdView
         android:id="@+id/adView"
